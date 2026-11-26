@@ -136,26 +136,26 @@ Feng Yin, Shuai Shi, Junjie Zheng, Kechenying Zhou, Yiqiu Wang, Chenyang He, Qiu
 # 📖 Education
 - *2023.09 – 2027.06 (expected)* B.Sc. in Artificial Intelligence, Turing Class, Chu Kochen Honors College, Zhejiang University.<br>**GPA: 3.95 / 4.3** · **Class Rank: Top 5%**
 
-<span class='anchor' id='-internships'></span>
-
 # 💻 Research Experience
-
-## Research Intern, Alibaba Group
-*2026.09 – Present* · Qwen Division, Hangzhou, China
-
-I work on continuous-latent speech generation, with an emphasis on audio autoencoders and training stability. I also investigate streaming audio tokenization and full-duplex speech language models, and contribute to large-scale text-to-speech training.
 
 ## Research Assistant, The Chinese University of Hong Kong, Shenzhen
 *2026.07 – 2026.09*<br>Supervisor: **Zhizheng Wu**.
 
 I independently led a study of dynamic-rate speech codecs, designing boundary-alignment analyses and rate-matched reconstruction experiments to test which linguistic units make useful codec boundaries.
 
-## Research Intern, VUI Labs
-*2026.01 – 2026.06* · Hangzhou, China<br>Supervisor: **[Yanmin Qian](https://scholar.google.com/citations?hl=en&user=guG9lxgAAAAJ)**.
-
-I contributed to distributed pretraining for **Luna-TTS**, which reached **No. 1 on TTS Arena**, and developed speech tokenizers for improved reconstruction. I also prepared training data and trained neural speech codecs for **DelexWav**, which disentangles prosody from linguistic content for controllable speech generation.
-
 ## Research Assistant, Zhejiang University
 *2024.04 – 2026.02* · Multimodal Speech Synthesis Laboratory<br>Supervisor: **[Zhou Zhao](https://scholar.google.com/citations?user=IIoFY90AAAAJ&hl=zh-CN&oi=ao)**.
 
 I co-developed **CSAVocoder**, contributing to causal model implementation, streaming inference, ablations, and spatial audio evaluation, and presented the work at EMNLP 2026 in Budapest. I also designed evaluation protocols and analyzed failure modes for long-form speech generation across models and scenarios.
+
+# 💻 Internships
+
+## Research Intern, Alibaba Group
+*2026.09 – Present* · Qwen Division, Hangzhou, China
+
+I work on continuous-latent speech generation, with an emphasis on audio autoencoders and training stability. I also investigate streaming audio tokenization and full-duplex speech language models, and contribute to large-scale text-to-speech training.
+
+## Research Intern, VUI Labs
+*2026.01 – 2026.06* · Hangzhou, China<br>Supervisor: **[Yanmin Qian](https://scholar.google.com/citations?hl=en&user=guG9lxgAAAAJ)**.
+
+I contributed to distributed pretraining for **Luna-TTS**, which reached **No. 1 on TTS Arena**, and developed speech tokenizers for improved reconstruction. I also prepared training data and trained neural speech codecs for **DelexWav**, which disentangles prosody from linguistic content for controllable speech generation.
