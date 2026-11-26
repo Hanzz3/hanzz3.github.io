@@ -17,19 +17,27 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-**Focus:** `Multi-Modal Generative AI` · `Speech Synthesis` · `Spatial Audio`
+**Focus:** `Audio-Visual Learning` · `Speech Generation` · `Full-Duplex Interaction`
 
-I am an undergraduate student at **[Turing Class](http://www.cs.zju.edu.cn/turingclass_en/)**, **[Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/)**, **[Zhejiang University](https://www.zju.edu.cn/english/)**, majoring in Artificial Intelligence. I currently work in the **Audio Research Team** at Zhejiang University, under the supervision of **[Prof. Zhou Zhao](https://person.zju.edu.cn/en/zhaozhou)**.
+I am an undergraduate student in the **[Turing Class](http://www.cs.zju.edu.cn/turingclass_en/)** at **[Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/)**, **[Zhejiang University](https://www.zju.edu.cn/english/)**, majoring in Artificial Intelligence and expecting to graduate in June 2027. I am currently a **Research Intern at Alibaba Group's Qwen Division**, working on speech generation and full-duplex speech language models.
 
-My research interest lies in **Multi-Modal Generative AI**, with a particular focus on **Speech Synthesis** and **Spatial Audio Generation**. My work aims to build immersive auditory experiences through advanced generative modeling (e.g., Flow Matching). I have papers published or under review at top-tier venues including **NeurIPS**, **ACM MM**, **ACL**, and **EMNLP**.
+My research interests include **audio-visual representations and generation**, **full-duplex interaction**, **multimodal learning**, and **interactive world models**. My recent work spans speech codecs, spatial audio generation, long-form speech evaluation, and controllable prosody.
 
 I am always open to potential collaborations and opportunities. Feel free to reach out.
 
 # 🔥 News
 <div class="timeline">
   <div class="timeline-item">
-    <div class="timeline-date">2026.06</div>
-    <div class="timeline-content">📝 One paper submitted to <strong>EMNLP 2026</strong>.</div>
+    <div class="timeline-date">2026</div>
+    <div class="timeline-content">CSAVocoder was accepted to the <strong>EMNLP 2026 Main Conference</strong>. I presented the work in Budapest.</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-date">2026.09</div>
+    <div class="timeline-content">Joined <strong>Alibaba Group's Qwen Division</strong> as a research intern.</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-date">2026.07</div>
+    <div class="timeline-content">Joined <strong>The Chinese University of Hong Kong, Shenzhen</strong> as a research assistant with Zhizheng Wu.</div>
   </div>
   <div class="timeline-item">
     <div class="timeline-date">2026.04</div>
@@ -37,55 +45,117 @@ I am always open to potential collaborations and opportunities. Feel free to rea
   </div>
   <div class="timeline-item">
     <div class="timeline-date">2026.01</div>
-    <div class="timeline-content">🎉 Started my internship at <a href="https://vuilabs.cn/">Luna Lab（宇生月伴）</a> as a text-to-speech model researcher.</div>
+    <div class="timeline-content">Started my research internship at <a href="https://vuilabs.cn/">VUI Labs</a>, working on speech synthesis and neural speech codecs.</div>
   </div>
 </div>
 
 # 📝 Publications
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026 Findings</div><img src='images/aoe.png' alt="sym" width="100%"></div></div>
+
+Selected publications and manuscripts. <sup>*</sup> Equal contribution. [Full list on Google Scholar](https://scholar.google.com/citations?user=JSeLOUwAAAAJ&hl=zh-CN).
+
+<div class='paper-box'><div class='paper-box-text' markdown="1">
+
+[Interpreting and Evaluating Dynamic-Rate Speech Codec Boundaries](https://arxiv.org/abs/2609.36951)
+
+**Han Wang**<sup>*</sup>, Jiaqi Li<sup>*</sup>, Yingda Shen, Yuxiang Wang, Zhizheng Wu.
+
+**Submitted to ICASSP 2027** · arXiv:2609.36951
+
+Analyzed what dynamic codec boundaries encode and tested syllable- and phoneme-based segmentation under matched frame rates.
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026 Main</div><img src='images/vocoder.png' alt="CSAVocoder architecture" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Comprehensive Benchmarking of Long-Form Speech Generation in Diverse Scenarios](images/article_aoe.pdf)
+[CSAVocoder: A Causal Spatial Audio Vocoder Towards Real-Time Spatial Audio Generation](https://aclanthology.org/2026.emnlp-main.496/)
 
-#Changhao Pan, #Rui Yang, **#Han Wang**, et al.
+Zhiyuan Zhu<sup>*</sup>, **Han Wang**<sup>*</sup>, Wenxiang Guo, Yu Zhang, Changhao Pan, Rui Yang, Zhou Zhao.
 
-- We propose **LFS-Bench**, a standardized benchmark decomposing "long-form quality" into acoustics, semantics, and expressiveness. It includes 1,101 samples spanning 17 diverse scenarios (e.g., dialogues, audiobooks).
-- Our extensive experiments reveal that current SOTA models still struggle significantly with consistency and hierarchy in highly expressive scenarios compared to real recordings.
-</div>
-</div>
+**EMNLP 2026 Main Conference**, pp. 11394–11416
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to EMNLP 2026</div><img src='images/vocoder.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[CSAVocoder: A Causal Spatial Audio Vocoder Towards Real-Time Spatial Audio Generation](images/article_csavocoder.pdf)
-
-#Zhiyuan Zhu, **#Han Wang**, et al.
-
-- We introduce **CSAVocoder**, a strictly causal streaming neural vocoder. It features a Spatial Adaptor to fuse pose information and a Spatial Consistency Discriminator to explicitly supervise inter-channel phase and level differences.
-- The model achieves high-fidelity waveform reconstruction while preserving precise spatial rendering, all within a constant memory overhead suitable for real-time streaming.
+Co-developed a causal vocoder for real-time spatial audio generation with pose conditioning and stateful streaming inference.
 </div>
 </div>
 
 <div class='paper-box'><div class='paper-box-text' markdown="1">
-[A Multimodal Evaluation Framework for Spatial Audio Playback Systems: From Localization to Listener Preference]
 
-Changhao Pan, Wenxiang Guo, Yu Zhang, Zhiyuan Zhu, Zhetao Chen, **Han Wang**, Zhou Zhao **ACM MM 2025**
+**DelexWav: An Audible Representation of Fine-Grained Prosody**
+
+Haiyang Sun, **Han Wang**, Chenyang Le, Yi Wang, Yanmin Qian.
+
+**Submitted to ICLR 2027**
+
+A waveform representation that preserves fine-grained prosody while suppressing lexical content, enabling direct listening and local editing.
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Findings of ACL 2026</div><img src='images/aoe.png' alt="LFS-Bench overview" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Comprehensive Benchmarking of Long-Form Speech Generation in Diverse Scenarios](https://aclanthology.org/2026.findings-acl.112/)
+
+Changhao Pan<sup>*</sup>, Rui Yang<sup>*</sup>, **Han Wang**<sup>*</sup>, et al.
+
+**Findings of ACL 2026**, pp. 2365–2400
+
+Co-developed **LFS-Bench**, a benchmark for semantic consistency, generation stability, and perceptual quality in long-form speech synthesis.
 </div></div>
 
 <div class='paper-box'><div class='paper-box-text' markdown="1">
-[MRSAudio: A Large-Scale Multimodal Recorded Spatial Audio Dataset with Refined Annotations]
 
-Wenxiang Guo, Changhao Pan, Zhiyuan Zhu, Xintong Hu, Yu Zhang, Li Tang, Rui Yang, **Han Wang**, et al. **NeurIPS 2025**
+[MRSAudio: A Large-Scale Multimodal Recorded Spatial Audio Dataset with Refined Annotations](https://proceedings.neurips.cc/paper_files/paper/2025/hash/d6ce4d1c760694b4cd9879710f9e7cd0-Abstract-Datasets_and_Benchmarks_Track.html)
+
+Wenxiang Guo, Changhao Pan, Zhiyuan Zhu, Xintong Hu, Yu Zhang, Li Tang, Rui Yang, **Han Wang**, et al.
+
+**NeurIPS 2025, Datasets and Benchmarks Track**, vol. 38
+</div></div>
+
+<div class='paper-box'><div class='paper-box-text' markdown="1">
+
+[A Multimodal Evaluation Framework for Spatial Audio Playback Systems: From Localization to Listener Preference](https://doi.org/10.1145/3746027.3755571)
+
+Changhao Pan, Wenxiang Guo, Yu Zhang, Zhiyuan Zhu, Zhetao Chen, **Han Wang**, Zhou Zhao.
+
+**ACM Multimedia 2025**, pp. 7006–7015
+</div></div>
+
+<div class='paper-box'><div class='paper-box-text' markdown="1">
+
+[Luna-TTS Family Technical Report](https://arxiv.org/abs/2608.11593)
+
+Feng Yin, Shuai Shi, Junjie Zheng, Kechenying Zhou, Yiqiu Wang, Chenyang He, Qiuhua Jiang, Mengxiao Bi, Yanmin Qian, Mingxin Chen, Xun Gong, Tianteng Gu, Bing Han, Peng Jiang, Chenda Li, Haiyang Sun, **Han Wang**, Wei Wang, Yi Wang, Leying Zhang, Wangyou Zhang, Chushu Zhou.
+
+**Technical Report, 2026** · arXiv:2608.11593
 </div></div>
 
 # 🎖 Honors and Awards
-- *2024* First-class Scholarship in Zhejiang University
-- *2025* Second-class Scholarship in Zhejiang University
-- *2025* National Student Research Training Program
+- *2023–2024, 2025–2026* First-Class Scholarship, Zhejiang University
+- *2024–2025* Second-Class Scholarship, Zhejiang University
+- *2023–2024, 2024–2025* Basic Disciplines Top-notch Scholarship, Second Prize, Zhejiang University
+- *2024–2025* Project Leader, National Student Research Training Program, China
 
 # 📖 Education
-- *2023.08 - Present* Undergraduate, Chu Kochen Honors College, Zhejiang University
+- *2023.09 – 2027.06 (expected)* B.Sc. in Artificial Intelligence, Turing Class, Chu Kochen Honors College, Zhejiang University.<br>**GPA: 3.95 / 4.3** · **Class Rank: Top 5%**
 
-# 💻 Internships
-- *2024.04 – 2025.12* Research Assistant, Audio Research Team, Zhejiang University.<br>Supervisor: **[Zhou Zhao](https://scholar.google.com/citations?user=IIoFY90AAAAJ&hl=zh-CN&oi=ao)**.
-- *2026.01 – Present* MLE Intern (TTS), VUI Lab, Hangzhou.<br>Supervisor: **[Yanmin Qian](https://scholar.google.com/citations?hl=en&user=guG9lxgAAAAJ)**.
+<span class='anchor' id='-internships'></span>
+
+# 💻 Research Experience
+
+## Research Intern, Alibaba Group
+*2026.09 – Present* · Qwen Division, Hangzhou, China
+
+I work on continuous-latent speech generation, with an emphasis on audio autoencoders and training stability. I also investigate streaming audio tokenization and full-duplex speech language models, and contribute to large-scale text-to-speech training.
+
+## Research Assistant, The Chinese University of Hong Kong, Shenzhen
+*2026.07 – 2026.09*<br>Supervisor: **Zhizheng Wu**.
+
+I independently led a study of dynamic-rate speech codecs, designing boundary-alignment analyses and rate-matched reconstruction experiments to test which linguistic units make useful codec boundaries.
+
+## Research Intern, VUI Labs
+*2026.01 – 2026.06* · Hangzhou, China<br>Supervisor: **[Yanmin Qian](https://scholar.google.com/citations?hl=en&user=guG9lxgAAAAJ)**.
+
+I contributed to distributed pretraining for **Luna-TTS**, which reached **No. 1 on TTS Arena**, and developed speech tokenizers for improved reconstruction. I also prepared training data and trained neural speech codecs for **DelexWav**, which disentangles prosody from linguistic content for controllable speech generation.
+
+## Research Assistant, Zhejiang University
+*2024.04 – 2026.02* · Multimodal Speech Synthesis Laboratory<br>Supervisor: **[Zhou Zhao](https://scholar.google.com/citations?user=IIoFY90AAAAJ&hl=zh-CN&oi=ao)**.
+
+I co-developed **CSAVocoder**, contributing to causal model implementation, streaming inference, ablations, and spatial audio evaluation, and presented the work at EMNLP 2026 in Budapest. I also designed evaluation protocols and analyzed failure modes for long-form speech generation across models and scenarios.
